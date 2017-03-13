@@ -7,14 +7,20 @@ using System.Drawing;
 
 namespace SE2_GameAssignment
 {
-    class Map
+    public class Map
     {
         //Fields
         private Size mapSize;
         private Point endPosition;
+        private Size cellSize;
         private int amountOfCells;
 
         //Properties
+        public Size CellSize
+        {
+            get { return cellSize; }
+            private set { cellSize = value; }
+        }
         public Point EndPosition
         {
             get { return endPosition; }
@@ -32,10 +38,22 @@ namespace SE2_GameAssignment
             get { return amountOfCells; }
             private set { amountOfCells = value; }
         }
+
+
+        //Constructors
+        public Map(Size mapSize, Size cellSize, int cellCount, Point endPosition)
+        {
+        
+        }
        
             
        
         //Methods
+        public void draw(Graphics map)
+        {
+
+        }
+
         public Point getEndPosition()
         {
             return EndPosition;
@@ -49,6 +67,11 @@ namespace SE2_GameAssignment
         public int getAmountOfCells()
         {
             return AmountOfCells;
+        }
+
+        public Size getCellSize()
+        {
+            return CellSize;
         }
 
 

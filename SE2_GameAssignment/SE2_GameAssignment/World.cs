@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Drawing;
 
 namespace SE2_GameAssignment
 {
-    class World
+    public class World
     {
         //Fields
         private bool wonGame;
@@ -34,6 +35,11 @@ namespace SE2_GameAssignment
         {
             wonGame = false;
             return WonGame;
+        }
+
+        public void draw(Graphics drawPanel)
+        {
+
         }
     }
 }

@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Drawing;
 
 namespace SE2_GameAssignment
 {
-    class Enemy
+    public class Enemy
     {
         //Fields
         private decimal enemyXPosition;
@@ -32,8 +33,25 @@ namespace SE2_GameAssignment
             set { enemyHitPoints = value; }
         }
 
+
+        //Constructors
+        public Enemy(decimal enemyXPosition, decimal enemyYPosition, int enemyHitpoints)
+        {
+
+        }
+
         //Methods
+        public void update()
+        {
+
+        }
+        
         public void attackPlayer(Player player)
+        {
+
+        }
+
+        public void draw(Graphics map)
         {
 
         }

@@ -9,14 +9,14 @@ using System.Windows.Forms;
 namespace SE2_GameAssignment
 {
 
-    enum cellTypes
+    public enum cellTypes
     {
         Normal,
         Wall,
-        Goal,
+        Goal
     }
 
-    class Cell
+    public class Cell
     {
         //Fields
         private decimal cellXPosition;
@@ -38,13 +38,15 @@ namespace SE2_GameAssignment
         }
 
 
-        //Methods
-        public void drawCell(Graphics map)
+        //Constructors
+        public Cell(Point index, decimal cellXPosition, decimal cellYPosition, cellTypes cellType)
         {
 
         }
 
-        public void cell(decimal XCoordinate, decimal YCoordinate)
+
+        //Methods
+        public void drawCell(Graphics map)
         {
 
         }
