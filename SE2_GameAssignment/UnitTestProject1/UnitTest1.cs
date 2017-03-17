@@ -14,7 +14,7 @@ namespace UnitTestProject1
         public void addNewPlayerTest()
         {
             Player testPlayer1 = new Player(50, 50, true, 3);
-            Assert.AreEqual(true, testPlayer1.PowerUp, "The player appears to have no powerUp");
+            Assert.AreEqual(3, testPlayer1.PlayerHitPoints, "The player appears to have too many hitpoints");
         }
     }
 }

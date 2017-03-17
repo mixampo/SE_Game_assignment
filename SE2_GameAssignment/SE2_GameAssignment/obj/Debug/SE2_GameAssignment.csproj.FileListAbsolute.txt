@@ -3,8 +3,8 @@ C:\Users\maxim\Documents\GitHub\SE_Game_assignment\SE2_GameAssignment\SE2_GameAs
 C:\Users\maxim\Documents\GitHub\SE_Game_assignment\SE2_GameAssignment\SE2_GameAssignment\bin\Debug\SE2_GameAssignment.exe
 C:\Users\maxim\Documents\GitHub\SE_Game_assignment\SE2_GameAssignment\SE2_GameAssignment\bin\Debug\SE2_GameAssignment.pdb
 C:\Users\maxim\Documents\GitHub\SE_Game_assignment\SE2_GameAssignment\SE2_GameAssignment\obj\Debug\SE2_GameAssignment.csprojResolveAssemblyReference.cache
-C:\Users\maxim\Documents\GitHub\SE_Game_assignment\SE2_GameAssignment\SE2_GameAssignment\obj\Debug\SE2_GameAssignment.Form1.resources
 C:\Users\maxim\Documents\GitHub\SE_Game_assignment\SE2_GameAssignment\SE2_GameAssignment\obj\Debug\SE2_GameAssignment.Properties.Resources.resources
 C:\Users\maxim\Documents\GitHub\SE_Game_assignment\SE2_GameAssignment\SE2_GameAssignment\obj\Debug\SE2_GameAssignment.csproj.GenerateResource.Cache
 C:\Users\maxim\Documents\GitHub\SE_Game_assignment\SE2_GameAssignment\SE2_GameAssignment\obj\Debug\SE2_GameAssignment.exe
 C:\Users\maxim\Documents\GitHub\SE_Game_assignment\SE2_GameAssignment\SE2_GameAssignment\obj\Debug\SE2_GameAssignment.pdb
+C:\Users\maxim\Documents\GitHub\SE_Game_assignment\SE2_GameAssignment\SE2_GameAssignment\obj\Debug\SE2_GameAssignment.GameGUI.resources

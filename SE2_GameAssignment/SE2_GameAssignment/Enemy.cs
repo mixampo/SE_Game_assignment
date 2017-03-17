@@ -7,51 +7,28 @@ using System.Drawing;
 
 namespace SE2_GameAssignment
 {
-    public class Enemy
+    public class Enemy: Character
     {
         //Fields
-        private decimal enemyXPosition;
-        private decimal enemyYPosition;
-        private int enemyHitPoints;
+        private List<int> amountOfEnemies = new List<int>();
 
         //Properties
-        public decimal EnemyXPosition
+        public List<int> AmountOfEnemies
         {
-            get { return enemyXPosition; }
-            set { enemyXPosition = value; }
+           get { return amountOfEnemies; }
+           set { amountOfEnemies = value; }
         }
-
-        public decimal EnemyYPosition
-        {
-            get { return enemyYPosition; }
-            set { enemyYPosition = value; }
-        }
-
-        public int EnemyHitPoints
-        {
-            get { return enemyHitPoints; }
-            set { enemyHitPoints = value; }
-        }
-
+        
+ 
 
         //Constructors
-        public Enemy(decimal enemyXPosition, decimal enemyYPosition, int enemyHitpoints)
+        public Enemy(decimal enemyXPosition, decimal enemyYPosition, int enemyHitpoints, int amountOfEnemies)
         {
 
         }
 
         //Methods
-        public void update()
-        {
-
-        }
-        
         public void attackPlayer(Player player)
-        {
-
-        }
-
-        public void draw(Graphics map)
         {
 
         }

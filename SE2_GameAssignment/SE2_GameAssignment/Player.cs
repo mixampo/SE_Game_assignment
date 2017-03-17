@@ -18,25 +18,19 @@ namespace SE2_GameAssignment
         PerformAction
     }
 
-    public class Player
+    public class Player: Character
     {
         //Fields
-        private decimal playerXPosition;
-        private decimal playerYPosition;
-        private int playerHitPoints;
-        private bool powerUp = true;
+        private bool powerUp;
+        private int playerHitPoints = 3;
+
+
 
         //Properties
-        public decimal PlayerXPosition
+        public bool PowerUp
         {
-            get { return playerXPosition; }
-            set { playerXPosition = value; }
-        }
-
-        public decimal PlayerYPosition
-        {
-            get { return playerYPosition; }
-            set { playerYPosition = value; }
+            get { return powerUp; }
+            set { powerUp = value; }
         }
 
         public int PlayerHitPoints
@@ -44,14 +38,6 @@ namespace SE2_GameAssignment
             get { return playerHitPoints; }
             set { playerHitPoints = value; }
         }
-
-        public bool PowerUp
-        {
-            get { return powerUp; }
-            set { powerUp = value; }
-        }
-
-
 
 
         //Constructors
@@ -62,16 +48,6 @@ namespace SE2_GameAssignment
 
 
         //Methods
-        public void update()
-        {
-
-        }   
-
-        public void draw(Graphics map)
-        {
-
-        }
-
         public void performInteraction(int keyCode)
         {
 
