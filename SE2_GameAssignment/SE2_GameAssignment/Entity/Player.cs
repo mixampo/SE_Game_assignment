@@ -23,8 +23,7 @@ namespace SE2_GameAssignment
         //Fields
         private bool powerUp;
         private int playerHitPoints = 3;
-
-
+        private int maxWeight = 10;
 
         //Properties
         public bool PowerUp
@@ -37,6 +36,11 @@ namespace SE2_GameAssignment
         {
             get { return playerHitPoints; }
             set { playerHitPoints = value; }
+        }
+
+        public int MaxWeight
+        {
+            get { return maxWeight; }
         }
 
 

@@ -7,12 +7,12 @@ using System.Drawing;
 
 namespace SE2_GameAssignment
 {
-    public class Character
+    public abstract class Character
     {
         //Fields
         private decimal characterXPosition;
         private decimal characterYPosition;
-        private int characterHitPoints = 3;
+        private int characterHitPoints;
 
 
         //Properties

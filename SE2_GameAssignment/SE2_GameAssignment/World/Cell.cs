@@ -16,6 +16,7 @@ namespace SE2_GameAssignment
         Goal
     }
 
+
     public class Cell
     {
         //Fields
